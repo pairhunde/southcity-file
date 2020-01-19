@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Atlantis Lite - Bootstrap 4 Admin Dashboard</title>
+    <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+    <link rel="icon" href="../../assets/img/icon.ico" type="image/x-icon" />
+
+    <!-- Fonts and icons -->
+    <script src="../../assets/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                "families": ["Lato:300,400,700,900"]
+            },
+            custom: {
+                "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
+                urls: ['../../assets/css/fonts.min.css']
+            },
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/atlantis.min.css">
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="../../assets/css/demo.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-header">
+            <!-- Logo Header -->
+            <div class="logo-header" data-background-color="blue">
+
+                <a href="../index.html" class="logo">
+                    <img src="../assets/img/scp.png" width="70%" alt="navbar brand" class="navbar-brand">
+                </a>
+                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+                <button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+                <div class="nav-toggle">
+                    <button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+                </div>
+            </div>
+            <!-- End Logo Header -->
+
+            <!-- Navbar Header -->
+            <nav class="navbar navbar-header navbar-expand-lg" data-background-color="blue2">
+
+                <div class="container-fluid">
+
+                    <ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+
+
+                        <li class="nav-item dropdown hidden-caret">
+                            <a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+                                <div class="avatar-sm">
+
+                                    <i class="fas fa-user text-white rounded-circle"></i>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user animated fadeIn">
+                                <div class="dropdown-user-scroll scrollbar-outer">
+                                    <li>
+                                        <div class="user-box">
+                                            <div class="avatar-lg">
+                                                <img src="../assets/img/pics.png" alt="..." class="avatar-img rounded-circle">
+                                            </div>
+                                            <div class="u-text">
+                                                <h4>South City Pharmacy</h4>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown-divider"></div>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+        </div>
+        <!-- Sidebar -->
+        <div class="sidebar sidebar-style-2">
+            <div class="sidebar-wrapper scrollbar scrollbar-inner">
+                <div class="sidebar-content">
+                    <div class="user">
+                        <div class="avatar-sm float-left mr-2">
+                            <img src="../assets/img/pics.png" alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="info">
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+                                <span>
+									<span class="user-level">Administrator</span>
+                                </span>
+                            </a>
+                            <div class="clearfix"></div>
+
+                        </div>
+                    </div>
+                    <ul class="nav nav-primary">
+                        <li class="nav-item active">
+                            <a href="index.html" aria-expanded="false">
+                                <i class="fas fa-home"></i>
+                                <span class="sub-item">Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-section">
+                            <span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+                            <h4 class="text-section">Store</h4>
+                        </li>
+                        <li class="nav-item">
+                            <a href="product.html">
+                                <i class="fas fa-layer-group"></i>
+                                <p>Product</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="category.html">
+                                <i class="fas fa-th-list"></i>
+                                <p>Categories</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="notification.html">
+                                <i class="fas fa-bell"></i>
+                                <p>Notification</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="banner.html">
+                                <i class="fas fa-table"></i>
+                                <p>Banners</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <div class="content">
+                <div class="page-inner">
+                    <div class="page-header">
+                        <h4 class="page-title">Edit Banner</h4>
+                        <ul class="breadcrumbs">
+                            <li class="nav-home">
+                                <a href="index.html">
+                                    <i class="flaticon-home"></i>
+                                </a>
+                            </li>
+                            <li class="separator">
+                                <i class="flaticon-right-arrow"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a href="banner.html">Banner</a>
+                            </li>
+                            <li class="separator">
+                                <i class="flaticon-right-arrow"></i>
+                            </li>
+                            <li class="nav-item">
+                                <a href="editbanner.html">Edit Banner</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+
+                            <h4 class="card-title mt-3">name of banner to be edited example"Top Slider Banners"</h4>
+                            <div class="row row-demo-grid">
+                                <div class="col-xl-6">
+                                    <div class="card">
+                                        <div class="card-body"><code>Image 1</code></div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlFile1">Add image</label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="nav nav-pills nav-primary">
+                                                <li class="nav-item">
+                                                    <button type="button" class="nav-link text-white btn btn-success" id="alert_demo_3_3"> Save</button>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">Cancel</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="copyright ml-auto">
+                            &copy; 2019, all rights reserved South City Pharmacy
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        <!-- End Custom template -->
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../../assets/js/core/jquery.3.2.1.min.js"></script>
+    <script src="../../assets/js/core/popper.min.js"></script>
+    <script src="../../assets/js/core/bootstrap.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="../../assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+    <!-- jQuery UI -->
+    <script src="../../assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="../../assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="../../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <!-- Atlantis JS -->
+    <script src="../../assets/js/atlantis.min.js"></script>
+    <!-- Atlantis DEMO methods, don't include it in your project! -->
+    <script src="../../assets/js/setting-demo2.js"></script>
+    <script>
+        //== Class definition
+        var SweetAlert2Demo = function() {
+
+            //== Demos
+            var initDemos = function() {
+
+
+
+                //== Sweetalert Demo 3
+                $('#alert_demo_3_1').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon: "warning",
+                        buttons: {
+                            confirm: {
+                                className: 'btn btn-warning'
+                            }
+                        },
+                    });
+                });
+
+                $('#alert_demo_3_2').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon: "error",
+                        buttons: {
+                            confirm: {
+                                className: 'btn btn-danger'
+                            }
+                        },
+                    });
+                });
+
+                $('#alert_demo_3_3').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon: "success",
+                        buttons: {
+                            confirm: {
+                                className: 'btn btn-success'
+                            }
+                        },
+                    });
+                });
+
+                $('#alert_demo_3_4').click(function(e) {
+                    swal("Good job!", "You clicked the button!", {
+                        icon: "info",
+                        buttons: {
+                            confirm: {
+                                className: 'btn btn-info'
+                            }
+                        },
+                    });
+                });
+
+                //== Sweetalert Demo 4
+
+                $('#alert_demo_5').click(function(e) {
+                    swal({
+                        title: 'Input Something',
+                        html: '<br><input class="form-control" placeholder="Input Something" id="input-field">',
+                        content: {
+                            element: "input",
+                            attributes: {
+                                placeholder: "Input Something",
+                                type: "text",
+                                id: "input-field",
+                                className: "form-control"
+                            },
+                        },
+                        buttons: {
+                            cancel: {
+                                visible: true,
+                                className: 'btn btn-danger'
+                            },
+                            confirm: {
+                                className: 'btn btn-success'
+                            }
+                        },
+                    }).then(
+                        function() {
+                            swal("", "You entered : " + $('#input-field').val(), "success");
+                        }
+                    );
+                });
+
+                $('#alert_demo_6').click(function(e) {
+                    swal("This modal will disappear soon!", {
+                        buttons: false,
+                        timer: 3000,
+                    });
+                });
+
+                $('#alert_demo_7').click(function(e) {
+                    swal({
+                        title: 'Are you sure?',
+                        text: "You won't be able to revert this!",
+                        type: 'warning',
+                        buttons: {
+                            confirm: {
+                                text: 'Yes, delete it!',
+                                className: 'btn btn-success'
+                            },
+                            cancel: {
+                                visible: true,
+                                className: 'btn btn-danger'
+                            }
+                        }
+                    }).then((Delete) => {
+                        if (Delete) {
+                            swal({
+                                title: 'Deleted!',
+                                text: 'Your file has been deleted.',
+                                type: 'success',
+                                buttons: {
+                                    confirm: {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal.close();
+                        }
+                    });
+                });
+
+                $('#alert_demo_8').click(function(e) {
+                    swal({
+                        title: 'Are you sure?',
+                        text: "You won't be able to revert this!",
+                        type: 'warning',
+                        buttons: {
+                            cancel: {
+                                visible: true,
+                                text: 'No, cancel!',
+                                className: 'btn btn-danger'
+                            },
+                            confirm: {
+                                text: 'Yes, delete it!',
+                                className: 'btn btn-success'
+                            }
+                        }
+                    }).then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Your imaginary file has been deleted!", {
+                                icon: "success",
+                                buttons: {
+                                    confirm: {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        } else {
+                            swal("Your imaginary file is safe!", {
+                                buttons: {
+                                    confirm: {
+                                        className: 'btn btn-success'
+                                    }
+                                }
+                            });
+                        }
+                    });
+                })
+
+            };
+
+            return {
+                //== Init
+                init: function() {
+                    initDemos();
+                },
+            };
+        }();
+
+        //== Class Initialization
+        jQuery(document).ready(function() {
+            SweetAlert2Demo.init();
+        });
+    </script>
+</body>
+
+</html>

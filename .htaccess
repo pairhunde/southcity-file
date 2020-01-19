@@ -1,0 +1,9 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^southcitypharmacy\.ng$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.southcitypharmacy\.ng$
+RewriteRule ^southcitypharmacy\.ng\/$ "https\:\/\/southcitypharmacy\.ng\/index\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^/?$ "https\:\/\/southcitypharmacy\.ng\/" [R=301,L]

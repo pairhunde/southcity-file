@@ -1,0 +1,96 @@
+[28-Jun-2019 11:15:00 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[28-Jun-2019 11:15:03 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[28-Jun-2019 11:15:12 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[28-Jun-2019 11:15:16 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[28-Jun-2019 11:19:59 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:23:34 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:49:10 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:54:21 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:54:46 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:55:05 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:56:15 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:57:46 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 11:59:50 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:19:07 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:20:39 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:21:10 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:21:29 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:22:07 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:23:16 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:31:00 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:34:55 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:37:43 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:39:06 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 12:42:08 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:04:12 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:20:39 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:22:06 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:25:55 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:26:46 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:27:36 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 40
+[28-Jun-2019 13:33:28 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[28-Jun-2019 13:34:46 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[28-Jun-2019 13:35:20 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[28-Jun-2019 13:35:23 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[28-Jun-2019 15:55:11 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[28-Jun-2019 15:55:26 UTC] PHP Warning:  file_get_contents(https://api.currconv.com/api/v7/convert?q=USD_PHP&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 37
+[01-Jul-2019 17:30:57 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:33:07 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:34:48 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:35:16 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:38:42 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:38:50 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 17:39:29 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:14:56 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:17:30 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:19:58 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:21:02 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:21:17 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 18:21:42 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
+[01-Jul-2019 19:15:56 UTC] PHP Warning:  file_get_contents(https://free.currencyconverterapi.com/api/v6/convert?q=NGN_USD&amp;compact=ultra&amp;apiKey=eb47431ad04237f1bf28): failed to open stream: HTTP request failed! HTTP/1.1 503 Service Unavailable
+ in /home/southcit/public_html/checkout/cryptoapi_php/Examples/pay-per-product.php on line 33
